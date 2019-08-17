@@ -12,7 +12,7 @@ BaselineOfPharoWeb >> baseline: spec [
 		do: [ spec
 				baseline: 'Seaside3'
 				with: [ spec repository: 'github://SeasideSt/Seaside:master/repository' ].
-			spec
+			"spec
 				baseline: 'Bootstrap'
-				with: [ spec repository: 'github://astares/Seaside-Bootstrap:master/src' ] ]
+				with: [ spec repository: 'github://astares/Seaside-Bootstrap:master/src' ]" ]
 ]
