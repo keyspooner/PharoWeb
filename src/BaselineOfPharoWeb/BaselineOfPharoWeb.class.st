@@ -18,7 +18,7 @@ BaselineOfPharoWeb >> baseline: spec [
 						repository: 'github://magritte-metamodel/magritte:v3.5.4';
 						loads: #(Core) ];
 				baseline: 'Bootstrap-Magritte'
-					with: [ spec repository: 'https://github.com/magritte-metamodel/Bootstrap-Magritte/src' ];
+					with: [ spec repository: 'github.com/magritte-metamodel/Bootstrap-Magritte' ];
 				baseline: 'Voyage'
 					with: [ spec
 						repository: 'github://pharo-nosql/voyage/mc';
