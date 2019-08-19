@@ -15,7 +15,9 @@ BaselineOfPharoWeb >> baseline: spec [
 				with: [ spec
 						repository: 'github://zeroflag/Teapot:master/source'];
 				baseline: 'ZincHTTPComponents'
-							with: [ spec repository: 'github://svenvc/zinc/repository' ]]	
+							with: [ spec repository: 'github://svenvc/zinc/repository' ];
+				baseline: 'XMLParser' with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ];
+				baseline: 'Garage' with: [ spec repository: 'github://pharo-rdbms/garage:master' ]]	
 				
 
 ]
