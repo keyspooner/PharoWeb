@@ -30,7 +30,7 @@ BaselineOfPharoWeb >> baseline: spec [
 						loads: #('Deployment') ];
 				baseline: 'XMLParser' with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ];
 				"baseline: 'Mustache' with: [ spec repository: 'github.com/noha/mustache'];"
-				baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON/repository' ];
+				"baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON/repository' ];"
 				"baseline: 'Ston' with: [ spec repository: 'github.com/svenvc/ston/repository' ];"
 				baseline: 'ZincHTTPComponents' with: [ spec repository: 'github://svenvc/zinc/repository' ] ]
 ]
