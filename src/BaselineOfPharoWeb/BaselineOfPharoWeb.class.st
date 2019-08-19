@@ -16,21 +16,6 @@ BaselineOfPharoWeb >> baseline: spec [
 				baseline: 'Magritte'
 					with: [ spec
 						repository: 'github://magritte-metamodel/magritte:v3.5.4';
-						loads: #(Core) ];
-				"baseline: 'Bootstrap-Magritte'
-					with: [ spec repository: 'github.com/magritte-metamodel/Bootstrap-Magritte' ];"
-				baseline: 'Voyage'
-					with: [ spec
-						repository: 'github://pharo-nosql/voyage/mc';
-						loads: #(mongo tests) ];
-				baseline: 'Garage' with: [ spec repository: 'github://pharo-rdbms/garage:master' ];
-				baseline: 'Teapot'
-					with: [ spec
-						repository: 'github://zeroflag/Teapot:master/source';
-						loads: #('Deployment') ];
-				baseline: 'XMLParser' with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ];
-				"baseline: 'Mustache' with: [ spec repository: 'github.com/noha/mustache'];"
-				"baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON/repository' ];"
-				"baseline: 'Ston' with: [ spec repository: 'github.com/svenvc/ston/repository' ];"
-				baseline: 'ZincHTTPComponents' with: [ spec repository: 'github://svenvc/zinc/repository' ] ]
+						loads: #(Core) ]]
+				
 ]
