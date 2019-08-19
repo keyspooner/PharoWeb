@@ -13,9 +13,13 @@ BaselineOfPharoWeb >> baseline: spec [
 				"baseline: 'Seaside3' with: [ spec repository: 'github://SeasideSt/Seaside:master/repository' ];"
 				"baseline: 'Bootstrap'
 					with: [ spec repository: 'github://astares/Seaside-Bootstrap:master/src' ];"
-				baseline: 'Magritte'
+					baseline: 'Teapot'
+					with: [ spec
+						repository: 'github://zeroflag/Teapot:master/source';
+						loads: #('Deployment') ]]
+				"baseline: 'Magritte'
 					with: [ spec
 						repository: 'github://magritte-metamodel/magritte:v3.5.4';
-						loads: #(Core) ]]
+						loads: #(Core) ]]"
 				
 ]
