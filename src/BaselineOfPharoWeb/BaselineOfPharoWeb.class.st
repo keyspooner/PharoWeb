@@ -17,7 +17,11 @@ BaselineOfPharoWeb >> baseline: spec [
 				baseline: 'ZincHTTPComponents'
 							with: [ spec repository: 'github://svenvc/zinc/repository' ];
 				baseline: 'XMLParser' with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ];
-				baseline: 'Garage' with: [ spec repository: 'github://pharo-rdbms/garage:master' ]]	
+				baseline: 'Garage' with: [ spec repository: 'github://pharo-rdbms/garage:master' ];
+				baseline: 'Voyage'
+					with: [ spec
+						repository: 'github://pharo-nosql/voyage/mc';
+						loads: #(mongo tests) ]]	
 				
 
 ]
